@@ -3,3 +3,53 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div1{
+    background-color: green;
+    height: 300px;
+    width: 300px;
+}
+
+.div2{
+    background-color: rgba(165, 42, 42, 0.589);
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+    left: 850px;
+}
+
+.div2>div{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 50px;
+    padding: 20px;
+}
+
+.div3{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 490px;
+    left: 1100px;
+    
+}
+
+.div3>div{
+    background-color: black;
+    height: 300px;
+    width: 30px;
+}
